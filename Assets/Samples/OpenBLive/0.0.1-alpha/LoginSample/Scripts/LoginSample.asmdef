@@ -1,0 +1,16 @@
+{
+    "name": "OpenBLiveDemo",
+    "rootNamespace": "",
+    "references": [
+        "GUID:137a689361ca2c34e9f0bf8b0fe65a1f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

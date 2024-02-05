@@ -1,0 +1,18 @@
+{
+    "name": "ZhengDianWaiBao.CommonLive.Sample",
+    "rootNamespace": "ZhengDianWaiBao.CommonLive.Sample",
+    "references": [
+        "GUID:104227091d99f4cbea245fc1ecfa4fee",
+        "GUID:682ac9fd972789ebd9caf6d5623f1db6",
+        "GUID:aad39dd3dbbabc740941e057e6cef811"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
