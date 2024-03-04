@@ -1,3 +1,4 @@
+using System;
 using System.IO;
 using NativeWebSocket;
 using UnityEngine;
@@ -9,11 +10,16 @@ namespace ZhengDianWaiBao.CommonLive.Sample
     {
         private LiveManager _liveManager;
 
+        private void OnDestroy()
+        {
+            _liveManager.Close();
+        }
+
         private async void Start()
         {
             var config = (await File.ReadAllTextAsync(Path.Combine(CommonDirectoryTool.GetConfig(), "CommonLive.json")))
                 .DeserializeObject<LiveConfig>();
-            _liveManager = new(config.AccessKeyId, config.AccessKeySecret, config.Code, config.AppId);
+            _liveManager = new(config.AccessKeySecret, config.AccessKeyId, config.Code, config.AppId);
             var initData = await _liveManager.Init();
             if (!initData.Successes)
             {
@@ -31,6 +37,7 @@ namespace ZhengDianWaiBao.CommonLive.Sample
                 Gift();
                 Commentaries();
                 AdvancedComments();
+                return;
 
                 async void GuardBuy()
                 {
