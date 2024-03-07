@@ -1,9 +1,10 @@
 {
   "dependencies": {
-    "com.unity.render-pipelines.high-definition": "17.0.2",
     "cn.zheng-dian-wai-bao.bilibili.open-b-live": "file:../../../Package/OpenBLive",
     "cn.zheng-dian-wai-bao.common-live": "file:../../../Package/CommonLive",
-    "cn.zheng-dian-wai-bao.tool": "file:../../../Package/ZhengDianTool"
+    "cn.zheng-dian-wai-bao.tool": "file:../../../Package/ZhengDianTool",
+    "com.unity.ide.rider": "3.0.28",
+    "com.unity.render-pipelines.high-definition": "17.0.2"
   },
   "scopedRegistries": [
     {
