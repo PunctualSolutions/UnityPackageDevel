@@ -2,7 +2,9 @@
     "name": "ZhengDianWaiBao.UnityPackageDevel",
     "rootNamespace": "ZhengDianWaiBao.UnityPackageDevel",
     "references": [
-        "GUID:aad39dd3dbbabc740941e057e6cef811"
+        "GUID:aad39dd3dbbabc740941e057e6cef811",
+        "GUID:7053a494724a448f18e88a849a83c098",
+        "GUID:4cdf5c99f4097a14fa3b8e43ee3fdbee"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
@@ -11,7 +13,7 @@
     "precompiledReferences": [
         "Newtonsoft.Json.dll"
     ],
-    "autoReferenced": false,
+    "autoReferenced": true,
     "defineConstraints": [],
     "versionDefines": [],
     "noEngineReferences": false

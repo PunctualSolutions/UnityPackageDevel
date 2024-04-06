@@ -3,8 +3,11 @@
     "cn.zheng-dian-wai-bao.bilibili.open-b-live": "file:../../../Package/OpenBLive",
     "cn.zheng-dian-wai-bao.common-live": "file:../../../Package/CommonLive",
     "cn.zheng-dian-wai-bao.tool": "file:../../../Package/ZhengDianTool",
+    "cn.zheng-dian-wai-bao.tool.vyaml.unity-type": "file:C:/Users/s_xgx1/Project/Package/VYamlUnityType",
     "com.unity.ide.rider": "3.0.28",
-    "com.unity.render-pipelines.high-definition": "17.0.2"
+    "com.unity.render-pipelines.high-definition": "17.0.2",
+    "jillejr.newtonsoft.json-for-unity.converters": "1.6.3",
+    "jp.hadashikick.vyaml": "0.25.0"
   },
   "scopedRegistries": [
     {
@@ -14,7 +17,9 @@
         "com.cysharp.unitask",
         "com.nobi.roundedcorners",
         "com.rfadeev.pumpeditor",
-        "com.unity.uiextensions"
+        "com.unity.uiextensions",
+        "jillejr.newtonsoft.json-for-unity.converters",
+        "jp.hadashikick.vyaml"
       ]
     }
   ]

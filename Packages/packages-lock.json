@@ -26,6 +26,14 @@
         "com.unity.nuget.newtonsoft-json": "3.2.1"
       }
     },
+    "cn.zheng-dian-wai-bao.tool.vyaml.unity-type": {
+      "version": "file:C:/Users/s_xgx1/Project/Package/VYamlUnityType",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "jp.hadashikick.vyaml": "0.25.0"
+      }
+    },
     "com.cysharp.unitask": {
       "version": "2.5.3",
       "depth": 1,
@@ -196,6 +204,20 @@
         "com.unity.shadergraph": "17.0.2",
         "com.unity.render-pipelines.core": "17.0.2"
       }
+    },
+    "jillejr.newtonsoft.json-for-unity.converters": {
+      "version": "1.6.3",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://package.openupm.com"
+    },
+    "jp.hadashikick.vyaml": {
+      "version": "0.25.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://package.openupm.com"
     },
     "com.unity.modules.animation": {
       "version": "1.0.0",
