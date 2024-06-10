@@ -1,11 +1,8 @@
 {
   "dependencies": {
-    "cn.zheng-dian-wai-bao.tool.vyaml.unity-type": "file:C:/Users/s_xgx1/Project/Package/VYamlUnityType",
+    "com.punctual-solutions.picoxr": "file:../../PICOUnityOpenXRIntegrationSDK",
     "com.unity.ide.rider": "3.0.28",
-    "com.unity.render-pipelines.high-definition": "17.0.2",
-    "com.unity.toolchain.linux-x86_64": "2.0.9",
-    "jillejr.newtonsoft.json-for-unity.converters": "1.6.3",
-    "jp.hadashikick.vyaml": "0.25.0"
+    "com.unity.toolchain.linux-x86_64": "2.0.9"
   },
   "scopedRegistries": [
     {
