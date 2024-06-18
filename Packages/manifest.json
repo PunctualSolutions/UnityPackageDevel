@@ -1,21 +1,17 @@
 {
   "dependencies": {
-    "com.punctual-solutions.picoxr": "file:../../PICOUnityOpenXRIntegrationSDK",
+    "cn.punctual-solutions.common-live": "file:../../CommonLive",
+    "cn.punctual-solutions.third-party.open-bili-live": "file:../../OpenBLive",
     "cn.punctual-solutions.tool": "file:../../PunctualSolutionsTool",
-    "com.unity.ide.rider": "3.0.28",
-    "com.unity.toolchain.linux-x86_64": "2.0.9"
+    "com.punctual-solutions.xr.picoxr": "file:../../PICOUnityIntegrationSDK",
+    "com.unity.ide.rider": "3.0.28"
   },
   "scopedRegistries": [
     {
       "name": "package.openupm.com",
       "url": "https://package.openupm.com",
       "scopes": [
-        "com.cysharp.unitask",
-        "com.nobi.roundedcorners",
-        "com.rfadeev.pumpeditor",
-        "com.unity.uiextensions",
-        "jillejr.newtonsoft.json-for-unity.converters",
-        "jp.hadashikick.vyaml"
+        "com.cysharp.unitask"
       ]
     }
   ]

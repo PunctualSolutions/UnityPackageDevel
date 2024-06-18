@@ -1,5 +1,22 @@
 {
   "dependencies": {
+    "cn.punctual-solutions.common-live": {
+      "version": "file:../../CommonLive",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "cn.punctual-solutions.tool": "1.1.0",
+        "cn.punctual-solutions.third-party.open-bili-live": "1.0.0"
+      }
+    },
+    "cn.punctual-solutions.third-party.open-bili-live": {
+      "version": "file:../../OpenBLive",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1"
+      }
+    },
     "cn.punctual-solutions.tool": {
       "version": "file:../../PunctualSolutionsTool",
       "depth": 0,
@@ -16,13 +33,15 @@
       "dependencies": {},
       "url": "https://package.openupm.com"
     },
-    "com.punctual-solutions.picoxr": {
-      "version": "file:../../PICOUnityOpenXRIntegrationSDK",
+    "com.punctual-solutions.xr.picoxr": {
+      "version": "file:../../PICOUnityIntegrationSDK",
       "depth": 0,
       "source": "local",
       "dependencies": {
-        "com.unity.xr.core-utils": "2.2.0",
-        "com.unity.xr.openxr": "1.7.0",
+        "com.unity.xr.management": "4.0.0",
+        "com.unity.xr.interaction.toolkit": "2.0.0",
+        "com.unity.modules.animation": "1.0.0",
+        "com.unity.modules.imageconversion": "1.0.0",
         "com.unity.modules.androidjni": "1.0.0",
         "com.unity.modules.unitywebrequesttexture": "1.0.0"
       }
@@ -127,22 +146,6 @@
         "com.unity.modules.terrain": "1.0.0"
       }
     },
-    "com.unity.sysroot": {
-      "version": "2.0.10",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.sysroot.linux-x86_64": {
-      "version": "2.0.9",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.sysroot": "2.0.10"
-      },
-      "url": "https://packages.unity.com"
-    },
     "com.unity.test-framework": {
       "version": "1.4.4",
       "depth": 3,
@@ -164,16 +167,6 @@
       },
       "url": "https://packages.unity.com"
     },
-    "com.unity.toolchain.linux-x86_64": {
-      "version": "2.0.9",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.sysroot": "2.0.10",
-        "com.unity.sysroot.linux-x86_64": "2.0.9"
-      },
-      "url": "https://packages.unity.com"
-    },
     "com.unity.ugui": {
       "version": "2.0.0",
       "depth": 2,
@@ -185,9 +178,25 @@
     },
     "com.unity.xr.core-utils": {
       "version": "2.3.0",
+      "depth": 2,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.xr": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.xr.interaction.toolkit": {
+      "version": "3.0.1",
       "depth": 1,
       "source": "registry",
       "dependencies": {
+        "com.unity.inputsystem": "1.8.1",
+        "com.unity.mathematics": "1.2.6",
+        "com.unity.ugui": "1.0.0",
+        "com.unity.xr.core-utils": "2.2.3",
+        "com.unity.modules.audio": "1.0.0",
+        "com.unity.modules.imgui": "1.0.0",
+        "com.unity.modules.physics": "1.0.0",
         "com.unity.modules.xr": "1.0.0"
       },
       "url": "https://packages.unity.com"
@@ -204,7 +213,7 @@
     },
     "com.unity.xr.management": {
       "version": "4.4.0",
-      "depth": 2,
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.modules.subsystems": "1.0.0",
@@ -214,21 +223,21 @@
       },
       "url": "https://packages.unity.com"
     },
-    "com.unity.xr.openxr": {
-      "version": "1.10.0",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.xr.management": "4.4.0",
-        "com.unity.xr.legacyinputhelpers": "2.1.2",
-        "com.unity.inputsystem": "1.6.3",
-        "com.unity.xr.core-utils": "2.1.1"
-      },
-      "url": "https://packages.unity.com"
-    },
     "com.unity.modules.androidjni": {
       "version": "1.0.0",
       "depth": 1,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.animation": {
+      "version": "1.0.0",
+      "depth": 1,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.audio": {
+      "version": "1.0.0",
+      "depth": 2,
       "source": "builtin",
       "dependencies": {}
     },
@@ -240,13 +249,13 @@
     },
     "com.unity.modules.imageconversion": {
       "version": "1.0.0",
-      "depth": 2,
+      "depth": 1,
       "source": "builtin",
       "dependencies": {}
     },
     "com.unity.modules.imgui": {
       "version": "1.0.0",
-      "depth": 3,
+      "depth": 2,
       "source": "builtin",
       "dependencies": {}
     },
@@ -264,7 +273,7 @@
     },
     "com.unity.modules.subsystems": {
       "version": "1.0.0",
-      "depth": 3,
+      "depth": 2,
       "source": "builtin",
       "dependencies": {
         "com.unity.modules.jsonserialize": "1.0.0"
@@ -310,7 +319,7 @@
     },
     "com.unity.modules.vr": {
       "version": "1.0.0",
-      "depth": 3,
+      "depth": 2,
       "source": "builtin",
       "dependencies": {
         "com.unity.modules.jsonserialize": "1.0.0",

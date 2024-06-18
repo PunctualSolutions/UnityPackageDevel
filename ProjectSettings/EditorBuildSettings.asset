@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/OutdoorsScene.unity
     guid: 8124e5870f4fd4c779e7a5f994e84ad1
   m_configObjects:
-    Unity.XR.PXR.Settings: {fileID: 11400000, guid: eda8eeea275fb3c4bb2573fc1c701367,
+    Unity.XR.PXR.Settings: {fileID: 11400000, guid: a6765a460abd4564ea36c7c9229c2917,
       type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 07582bd1013d5fd6fa8b491b8b930a28,
       type: 3}
