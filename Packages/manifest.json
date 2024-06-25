@@ -4,7 +4,8 @@
     "cn.punctual-solutions.third-party.open-bili-live": "file:../../OpenBLive",
     "cn.punctual-solutions.tool": "file:../../PunctualSolutionsTool",
     "com.punctual-solutions.xr.picoxr": "file:../../PICOUnityIntegrationSDK",
-    "com.unity.ide.rider": "3.0.28"
+    "com.bytedance.liveopensdk": "file:../../ByteDanceLiveOpenSdk",
+    "com.unity.ide.rider": "3.0.31"
   },
   "scopedRegistries": [
     {
