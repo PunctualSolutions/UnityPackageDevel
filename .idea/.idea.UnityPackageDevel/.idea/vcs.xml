@@ -5,6 +5,7 @@
     <mapping directory="$PROJECT_DIR$/../CommonLive" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../OpenBLive" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../PICOUnityIntegrationSDK" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../PunctualSolutionsSkin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../PunctualSolutionsTool" vcs="Git" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
   </component>

@@ -1,0 +1,25 @@
+{
+    "name": "PunctualSolutions.UnityPackageDevel",
+    "rootNamespace": "PunctualSolutions.UnityPackageDevel",
+    "references": [
+        "GUID:682ac9fd972789ebd9caf6d5623f1db6",
+        "GUID:104227091d99f4cbea245fc1ecfa4fee",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:dc7ad6ec93994f54c8c18dfba333d16f",
+        "GUID:9e24947de15b9834991c9d8411ea37cf",
+        "GUID:593a5b492d29ac6448b1ebf7f035ef33",
+        "GUID:84651a3751eca9349aac36a66bba901b",
+        "GUID:d9c40f1360cd8094fa22cc9a7ec461f9",
+        "GUID:ef0e828845f0b8149bee59e68d42679f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

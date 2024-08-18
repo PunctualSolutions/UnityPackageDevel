@@ -1,11 +1,16 @@
 {
   "dependencies": {
     "cn.punctual-solutions.common-live": "file:../../CommonLive",
+    "cn.punctual-solutions.skin": "file:../../PunctualSolutionsSkin",
     "cn.punctual-solutions.third-party.open-bili-live": "file:../../OpenBLive",
     "cn.punctual-solutions.tool": "file:../../PunctualSolutionsTool",
-    "com.punctual-solutions.xr.picoxr": "file:../../PICOUnityIntegrationSDK",
     "com.bytedance.liveopensdk": "file:../../ByteDanceLiveOpenSdk",
-    "com.unity.ide.rider": "3.0.31"
+    "com.punctual-solutions.xr.picoxr": "file:../../PICOUnityIntegrationSDK",
+    "com.unity.addressables": "2.1.0",
+    "com.unity.ide.rider": "3.0.31",
+    "com.unity.render-pipelines.high-definition": "17.0.3",
+    "org.nuget.grpc.net.client": "2.63.0",
+    "com.unity.modules.particlesystem": "1.0.0"
   },
   "scopedRegistries": [
     {
@@ -13,6 +18,13 @@
       "url": "https://package.openupm.com",
       "scopes": [
         "com.cysharp.unitask"
+      ]
+    },
+    {
+      "name": "Unity NuGet",
+      "url": "https://unitynuget-registry.azurewebsites.net",
+      "scopes": [
+        "org.nuget"
       ]
     }
   ]

@@ -1,0 +1,13 @@
+﻿syntax = "proto3";
+package PunctualSolutions.UnityPackageDevel;
+
+service SearchXService {
+  rpc Search(MessageName) returns (MessageEnd);
+}
+message MessageName{
+  string name = 1;
+  string x = 2;
+}
+message MessageEnd{
+  string name = 1;
+}

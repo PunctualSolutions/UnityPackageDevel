@@ -1,0 +1,92 @@
+---- current path ----
+System.Environment.CurrentDirectory: C:\Users\s_xgx1\Project\UnityPackageDevel
+System.IO.Directory.GetCurrentDirectory: C:\Users\s_xgx1\Project\UnityPackageDevel
+---- unity app path ----
+unity Application.dataPath: C:/Users/s_xgx1/Project/Build/UnityPackageDevel/Windows/UnityPackageDevel_Data
+unity Application.persistentDataPath: C:/Users/s_xgx1/AppData/LocalLow/DefaultCompany/UnityPackageDevel
+unity Application.consoleLogPath: C:/Users/s_xgx1/AppData/LocalLow/DefaultCompany/UnityPackageDevel/Player.log
+unity Application.streamingAssetsPath: C:/Users/s_xgx1/Project/Build/UnityPackageDevel/Windows/UnityPackageDevel_Data/StreamingAssets
+---- assembly path ----
+CurrentDomain.BaseDirectory: C:\Users\s_xgx1\Project\Build\UnityPackageDevel\Windows
+ExecutingAssembly().Location: C:\Users\s_xgx1\Project\Build\UnityPackageDevel\Windows\UnityPackageDevel_Data\Managed\ByteDance.LiveOpenSdk.Runtime.dll
+EntryAssembly().Location: 
+---- env vars ----
+env vars: 45
+ #0 env ALLUSERSPROFILE = C:\ProgramData
+ #1 env ANDROID_HOME = C:\Users\s_xgx1\AppData\Local\Android\Sdk
+ #2 env APPDATA = C:\Users\s_xgx1\AppData\Roaming
+ #3 env chocolateyinstall = C:\Users\s_xgx1\AppData\Local\Programs\WingetUI\choco-cli
+ #4 env CommonProgramFiles = C:\Program Files\Common Files
+ #5 env CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+ #6 env CommonProgramW6432 = C:\Program Files\Common Files
+ #7 env COMPUTERNAME = DESKTOP-JLHA3RD
+ #8 env ComSpec = C:\Windows\system32\cmd.exe
+ #9 env DriverData = C:\Windows\System32\Drivers\DriverData
+ #10 env HOMEDRIVE = C:
+ #11 env HOMEPATH = \Users\s_xgx1
+ #12 env IDEA_INITIAL_DIRECTORY = C:\Windows\System32
+ #13 env JAVA_HOME = C:\Program Files\Android\Android Studio\jbr
+ #14 env LOCALAPPDATA = C:\Users\s_xgx1\AppData\Local
+ #15 env LOGONSERVER = \\DESKTOP-JLHA3RD
+ #16 env NDK_ROOT = C:\Users\s_xgx1\AppData\Local\Android\Sdk\ndk\25.1.8937393
+ #17 env NDKROOT = C:\Users\s_xgx1\AppData\Local\Android\Sdk\ndk\25.1.8937393
+ #18 env NUMBER_OF_PROCESSORS = 12
+ #19 env OneDrive = C:\Users\s_xgx1\Yun\OneDrive
+ #20 env OneDriveConsumer = C:\Users\s_xgx1\Yun\OneDrive
+ #21 env OS = Windows_NT
+ #22 env path = C:\Program Files\OpenSSH\;
+C:\Windows\system32;
+C:\Windows;
+C:\Windows\System32\Wbem;
+C:\Windows\System32\WindowsPowerShell\v1.0\;
+C:\Windows\System32\OpenSSH\;
+C:\Program Files\dotnet\;
+C:\Users\s_xgx1\AppData\Local\Programs\Windows Kits\10\Windows Performance Toolkit\;
+C:\Program Files\Bandizip\;
+C:\Program Files\Redis\;
+C:\Program Files\Git\cmd;
+C:\Program Files\nodejs\;
+C:\Users\s_xgx1\AppData\Local\Programs\Python\Python312\Scripts\;
+C:\Users\s_xgx1\AppData\Local\Programs\Python\Python312\;
+C:\Users\s_xgx1\AppData\Local\Programs\Python\Launcher\;
+C:\Users\s_xgx1\AppData\Local\Programs\WingetUI\choco-cli\bin;
+C:\Users\s_xgx1\scoop\shims;
+C:\Users\s_xgx1\AppData\Local\Microsoft\WindowsApps;
+C:\Users\s_xgx1\AppData\Local\JetBrains\Toolbox\scripts;
+C:\Users\s_xgx1\AppData\Local\GitHubDesktop\bin;
+C:\Users\s_xgx1\AppData\Local\Programs\ffmpeg-master-latest-win64-gpl-shared\bin;
+C:\Users\s_xgx1\AppData\Local\Android\Sdk\platform-tools;
+C:\Users\s_xgx1\AppData\Local\Android\Sdk\tools;
+C:\Users\s_xgx1\AppData\Local\Programs\aliyunpan;
+C:\Users\s_xgx1\.dotnet\tools;
+C:\Users\s_xgx1\AppData\Local\Microsoft\WinGet\Links;
+C:\Users\s_xgx1\AppData\Local\Programs\aliyunpan;
+C:\Users\s_xgx1\AppData\Local\Programs\Microsoft VS Code\bin;
+C:\Users\s_xgx1\AppData\Local\Programs\aliyunpan;
+C:\Users\s_xgx1\AppData\Local\Programs\bin;
+C:\Users\s_xgx1\AppData\Local\Programs\nu\bin\;
+C:\Users\s_xgx1\.dotnet\tools;
+C:\Users\s_xgx1\AppData\Roaming\npm;
+C:\Program Files\nu\bin\
+ #23 env PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+ #24 env PROCESSOR_ARCHITECTURE = AMD64
+ #25 env PROCESSOR_IDENTIFIER = AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD
+ #26 env PROCESSOR_LEVEL = 25
+ #27 env PROCESSOR_REVISION = 2102
+ #28 env ProgramData = C:\ProgramData
+ #29 env ProgramFiles = C:\Program Files
+ #30 env ProgramFiles(x86) = C:\Program Files (x86)
+ #31 env ProgramW6432 = C:\Program Files
+ #32 env PSModulePath = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+ #33 env PUBLIC = C:\Users\Public
+ #34 env SESSIONNAME = Console
+ #35 env STUDIO_PATH = C:\Users\s_xgx1\AppData\Local\Programs\Android Studio
+ #36 env SystemDrive = C:
+ #37 env SystemRoot = C:\Windows
+ #38 env TEMP = C:\Users\s_xgx1\AppData\Local\Temp
+ #39 env TMP = C:\Users\s_xgx1\AppData\Local\Temp
+ #40 env USERDOMAIN = DESKTOP-JLHA3RD
+ #41 env USERDOMAIN_ROAMINGPROFILE = DESKTOP-JLHA3RD
+ #42 env USERNAME = s_xgx1
+ #43 env USERPROFILE = C:\Users\s_xgx1
+ #44 env windir = C:\Windows
