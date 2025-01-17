@@ -7,24 +7,31 @@
     "com.bytedance.liveopensdk": "file:../../ByteDanceLiveOpenSdk",
     "com.punctual-solutions.xr.picoxr": "file:../../PICOUnityIntegrationSDK",
     "com.unity.addressables": "2.1.0",
-    "com.unity.ide.rider": "3.0.31",
+    "com.unity.ide.rider": "3.0.34",
     "com.unity.render-pipelines.high-definition": "17.0.3",
-    "org.nuget.grpc.net.client": "2.63.0",
-    "com.unity.modules.particlesystem": "1.0.0"
+    "com.vovgou.loxodon-framework": "2.6.6",
+    "jp.hadashikick.vyaml": "0.28.1",
+    "org.nuget.grpc.net.client": "2.66.0",
+    "org.nuget.microsoft.codeanalysis.csharp": "4.11.0",
+    "com.unity.modules.particlesystem": "1.0.0",
+    "com.unity.modules.physics2d": "1.0.0",
+    "com.unity.modules.unitywebrequestwww": "1.0.0"
   },
   "scopedRegistries": [
-    {
-      "name": "package.openupm.com",
-      "url": "https://package.openupm.com",
-      "scopes": [
-        "com.cysharp.unitask"
-      ]
-    },
     {
       "name": "Unity NuGet",
       "url": "https://unitynuget-registry.azurewebsites.net",
       "scopes": [
         "org.nuget"
+      ]
+    },
+    {
+      "name": "package.openupm.com",
+      "url": "https://package.openupm.com",
+      "scopes": [
+        "com.cysharp.unitask",
+        "com.vovgou.loxodon-framework",
+        "jp.hadashikick.vyaml"
       ]
     }
   ]
