@@ -335,7 +335,7 @@
       "url": "https://package.openupm.com"
     },
     "org.nuget.grpc.core.api": {
-      "version": "2.66.0",
+      "version": "2.67.0",
       "depth": 2,
       "source": "registry",
       "dependencies": {
@@ -344,22 +344,22 @@
       "url": "https://unitynuget-registry.azurewebsites.net"
     },
     "org.nuget.grpc.net.client": {
-      "version": "2.66.0",
+      "version": "2.67.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "org.nuget.grpc.net.common": "2.66.0",
+        "org.nuget.grpc.net.common": "2.67.0",
         "org.nuget.microsoft.extensions.logging.abstractions": "6.0.0",
         "org.nuget.system.diagnostics.diagnosticsource": "6.0.1"
       },
       "url": "https://unitynuget-registry.azurewebsites.net"
     },
     "org.nuget.grpc.net.common": {
-      "version": "2.66.0",
+      "version": "2.67.0",
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "org.nuget.grpc.core.api": "2.66.0",
+        "org.nuget.grpc.core.api": "2.67.0",
         "org.nuget.microsoft.bcl.asyncinterfaces": "6.0.0"
       },
       "url": "https://unitynuget-registry.azurewebsites.net"
@@ -381,7 +381,7 @@
       "url": "https://unitynuget-registry.azurewebsites.net"
     },
     "org.nuget.microsoft.codeanalysis.common": {
-      "version": "4.11.0",
+      "version": "4.12.0",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -398,11 +398,11 @@
       "url": "https://unitynuget-registry.azurewebsites.net"
     },
     "org.nuget.microsoft.codeanalysis.csharp": {
-      "version": "4.11.0",
+      "version": "4.12.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "org.nuget.microsoft.codeanalysis.common": "4.11.0",
+        "org.nuget.microsoft.codeanalysis.common": "4.12.0",
         "org.nuget.microsoft.codeanalysis.analyzers": "3.3.4",
         "org.nuget.system.buffers": "4.5.1",
         "org.nuget.system.collections.immutable": "8.0.0",
@@ -422,6 +422,16 @@
       "dependencies": {
         "org.nuget.system.buffers": "4.5.1",
         "org.nuget.system.memory": "4.5.4"
+      },
+      "url": "https://unitynuget-registry.azurewebsites.net"
+    },
+    "org.nuget.sharpziplib": {
+      "version": "1.4.2",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "org.nuget.system.memory": "4.5.4",
+        "org.nuget.system.threading.tasks.extensions": "4.5.2"
       },
       "url": "https://unitynuget-registry.azurewebsites.net"
     },

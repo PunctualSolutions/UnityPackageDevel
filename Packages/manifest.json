@@ -11,8 +11,9 @@
     "com.unity.render-pipelines.high-definition": "17.0.3",
     "com.vovgou.loxodon-framework": "2.6.6",
     "jp.hadashikick.vyaml": "0.28.1",
-    "org.nuget.grpc.net.client": "2.66.0",
-    "org.nuget.microsoft.codeanalysis.csharp": "4.11.0",
+    "org.nuget.grpc.net.client": "2.67.0",
+    "org.nuget.microsoft.codeanalysis.csharp": "4.12.0",
+    "org.nuget.sharpziplib": "1.4.2",
     "com.unity.modules.particlesystem": "1.0.0",
     "com.unity.modules.physics2d": "1.0.0",
     "com.unity.modules.unitywebrequestwww": "1.0.0"
